@@ -1,97 +1,99 @@
-[{
-        "id": 1,
-        "isActive": true,
-        "first_name": "Dickerson",
-        "last_name": "Macdonald",
-        "detail": [
-            { "id": 1, "customerId": 1, "isActive": true, "age": 40, "job": "Programmer" },
-            { "id": 2, "customerId": 1, "isActive": false, "age": 41, "job": "Designer" }
-        ]
-    },
-    {
-        "id": 2,
-        "isActive": false,
-        "first_name": "Larsen",
-        "last_name": "Shaw",
-        "detail": [
-            { "id": 3, "customerId": 2, "isActive": true, "age": 42, "job": "Manager" }
+{        
+        "customers":[{
+                "id": 1,
+                "isActive": true,
+                "first_name": "Dickerson",
+                "last_name": "Macdonald",
+                "detail": [
+                    { "id": 1, "customerId": 1, "isActive": true, "age": 40, "job": "Programmer" },
+                    { "id": 2, "customerId": 1, "isActive": false, "age": 41, "job": "Designer" }
+                ]
+            },
+            {
+                "id": 2,
+                "isActive": false,
+                "first_name": "Larsen",
+                "last_name": "Shaw",
+                "detail": [
+                    { "id": 3, "customerId": 2, "isActive": true, "age": 42, "job": "Manager" }
 
+                ]
+            },
+            {
+                "id": 3,
+                "isActive": false,
+                "first_name": "Geneva",
+                "last_name": "Wilson",
+                "detail": [
+                    { "id": 5, "customerId": 3, "isActive": true, "age": 44, "job": "Hacker" },
+                    { "id": 6, "customerId": 3, "isActive": false, "age": 45, "job": "Tester" },
+                    { "id": 4, "customerId": 3, "isActive": false, "age": 43, "job": "Director" }
+                ]
+            },
+            {
+                "id": 4,
+                "isActive": true,
+                "first_name": "Jami",
+                "last_name": "Carney",
+                "detail": [
+                    { "id": 7, "customerId": 4, "isActive": true, "age": 46, "job": "DB manager" },
+                    { "id": 8, "customerId": 4, "isActive": false, "age": 47, "job": "PM" }
+                ]
+            },
+            {
+                "id": 5,
+                "isActive": false,
+                "first_name": "Alan",
+                "last_name": "Walker",
+                "detail": [
+                    { "id": 5, "customerId": 3, "isActive": true, "age": 44, "job": "Hacker" },
+                    { "id": 6, "customerId": 3, "isActive": false, "age": 45, "job": "Tester" },
+                    { "id": 4, "customerId": 3, "isActive": false, "age": 43, "job": "Director" }
+                ]
+            },
+            {
+                "id": 6,
+                "isActive": false,
+                "first_name": "Sarah",
+                "last_name": "Will",
+                "detail": [
+                    { "id": 5, "customerId": 3, "isActive": true, "age": 44, "job": "Hacker" },
+                    { "id": 6, "customerId": 3, "isActive": false, "age": 45, "job": "Tester" },
+                    { "id": 4, "customerId": 3, "isActive": false, "age": 43, "job": "Director" }
+                ]
+            },
+            {
+                "id": 7,
+                "isActive": false,
+                "first_name": "Gena",
+                "last_name": "Roland",
+                "detail": [
+                    { "id": 5, "customerId": 3, "isActive": true, "age": 44, "job": "Hacker" },
+                    { "id": 6, "customerId": 3, "isActive": false, "age": 45, "job": "Tester" },
+                    { "id": 4, "customerId": 3, "isActive": false, "age": 43, "job": "Director" }
+                ]
+            },
+            {
+                "id": 8,
+                "isActive": false,
+                "first_name": "Gin",
+                "last_name": "Wossland",
+                "detail": [
+                    { "id": 5, "customerId": 3, "isActive": true, "age": 44, "job": "Hacker" },
+                    { "id": 6, "customerId": 3, "isActive": false, "age": 45, "job": "Tester" },
+                    { "id": 4, "customerId": 3, "isActive": false, "age": 43, "job": "Director" }
+                ]
+            },
+            {
+                "id": 9,
+                "isActive": false,
+                "first_name": "Shin",
+                "last_name": "Daniel",
+                "detail": [
+                    { "id": 5, "customerId": 3, "isActive": true, "age": 44, "job": "Hacker" },
+                    { "id": 6, "customerId": 3, "isActive": false, "age": 45, "job": "Tester" },
+                    { "id": 4, "customerId": 3, "isActive": false, "age": 43, "job": "Director" }
+                ]
+            }
         ]
-    },
-    {
-        "id": 3,
-        "isActive": false,
-        "first_name": "Geneva",
-        "last_name": "Wilson",
-        "detail": [
-            { "id": 5, "customerId": 3, "isActive": true, "age": 44, "job": "Hacker" },
-            { "id": 6, "customerId": 3, "isActive": false, "age": 45, "job": "Tester" },
-            { "id": 4, "customerId": 3, "isActive": false, "age": 43, "job": "Director" }
-        ]
-    },
-    {
-        "id": 4,
-        "isActive": true,
-        "first_name": "Jami",
-        "last_name": "Carney",
-        "detail": [
-            { "id": 7, "customerId": 4, "isActive": true, "age": 46, "job": "DB manager" },
-            { "id": 8, "customerId": 4, "isActive": false, "age": 47, "job": "PM" }
-        ]
-    },
-    {
-        "id": 5,
-        "isActive": false,
-        "first_name": "Alan",
-        "last_name": "Walker",
-        "detail": [
-            { "id": 5, "customerId": 3, "isActive": true, "age": 44, "job": "Hacker" },
-            { "id": 6, "customerId": 3, "isActive": false, "age": 45, "job": "Tester" },
-            { "id": 4, "customerId": 3, "isActive": false, "age": 43, "job": "Director" }
-        ]
-    },
-    {
-        "id": 6,
-        "isActive": false,
-        "first_name": "Sarah",
-        "last_name": "Will",
-        "detail": [
-            { "id": 5, "customerId": 3, "isActive": true, "age": 44, "job": "Hacker" },
-            { "id": 6, "customerId": 3, "isActive": false, "age": 45, "job": "Tester" },
-            { "id": 4, "customerId": 3, "isActive": false, "age": 43, "job": "Director" }
-        ]
-    },
-    {
-        "id": 7,
-        "isActive": false,
-        "first_name": "Gena",
-        "last_name": "Roland",
-        "detail": [
-            { "id": 5, "customerId": 3, "isActive": true, "age": 44, "job": "Hacker" },
-            { "id": 6, "customerId": 3, "isActive": false, "age": 45, "job": "Tester" },
-            { "id": 4, "customerId": 3, "isActive": false, "age": 43, "job": "Director" }
-        ]
-    },
-    {
-        "id": 8,
-        "isActive": false,
-        "first_name": "Gin",
-        "last_name": "Wossland",
-        "detail": [
-            { "id": 5, "customerId": 3, "isActive": true, "age": 44, "job": "Hacker" },
-            { "id": 6, "customerId": 3, "isActive": false, "age": 45, "job": "Tester" },
-            { "id": 4, "customerId": 3, "isActive": false, "age": 43, "job": "Director" }
-        ]
-    },
-    {
-        "id": 9,
-        "isActive": false,
-        "first_name": "Shin",
-        "last_name": "Daniel",
-        "detail": [
-            { "id": 5, "customerId": 3, "isActive": true, "age": 44, "job": "Hacker" },
-            { "id": 6, "customerId": 3, "isActive": false, "age": 45, "job": "Tester" },
-            { "id": 4, "customerId": 3, "isActive": false, "age": 43, "job": "Director" }
-        ]
-    }
-]
+}
